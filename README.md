@@ -43,3 +43,6 @@ This an attempt to generalize the structure of the URDF via reflection to make i
 	*	Abstraction layer is not clear. Should explicitly use abstract classes, and try to really clarify the dispatch order (`xmlr.Element`, `xmlr.Param`, `xmlr.Object`, etc.)
 4.	Figure out good policy for handling default methods. If saving to XML, write out default values, or leave them out for brevity (and to leave it open for change)? Might be best to add that as an option.
 5.	Find a lightweight package that can handle the reflection aspect more elegantly. Enthought traits? IPython's spinoff of traits?
+
+# Mike Notes
+- added path extenstions to test/
